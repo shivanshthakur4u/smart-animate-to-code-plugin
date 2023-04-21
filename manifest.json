@@ -1,0 +1,25 @@
+{
+    "name": "smart animate",
+    "id": "1231153177734461599",
+    "api": "1.0.0",
+    "main": "src/main/main.ts",
+    "ui": "ui/index.html",
+    "type": "plugin",
+    "capabilities": [],
+    "editorType": [
+        "figma"
+    ],
+    "menu": [{
+            "name": "Smart Animate",
+            "command": "runPlugin",
+            "shortcut": "CmdOrCtrl+Shift+A"
+        },
+        {
+            "separator": true
+        }
+    ],
+    "permissions": [
+        "read",
+        "write"
+    ]
+}
